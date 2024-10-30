@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set VIRTUAL_ENV=C:\Users\S017319051\Documents\Django-autentica-o_OAuth2.0\venv
+set VIRTUAL_ENV=C:\Users\pedri\OneDrive\Documents\Django-autentica-o_OAuth2.0\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

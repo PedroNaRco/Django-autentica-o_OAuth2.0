@@ -145,9 +145,17 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 SOCIALACCOUNT_PROVIDERS = {
     'github': {
         'APP': {
-            'client_id': ' ',
-            'secret': ' ',
+            'client_id': ' Ov23lidV9XmrufcHzbMj ',
+            'secret': ' cd5688943a0f545095fee7b9fde3f80865f61cee ',
             'key': ''
         }
     }
 }
+
+LOGIN_REDIRECT_URL = '/membros'
+
+SOCIALACCOUNT_LOGIN_ON_GET = True
+
+ACCOUNT_LOGOUT_ON_GET = True
+
+LOGOUT_REDIRECT_URL = '/'
